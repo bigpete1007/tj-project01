@@ -18,7 +18,7 @@ public class BankingSystemMain implements ICustomDefine {//뱅킹시스템메인
 	}
 
 	public static void main(String[] args) {
-		
+		System.out.println("클론후 작업01")
 		System.out.println("1차프로젝트 학원");
 		AccountManager manager = new AccountManager();
 		//Account accounts = new Account();abstract이라 하위값인 high으로 받아야한다
