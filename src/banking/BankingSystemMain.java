@@ -15,7 +15,7 @@ public class BankingSystemMain implements ICustomDefine {//뱅킹시스템메인
 		
 		System.out.println("*****************************");
 		System.out.print("메뉴선택>>>");
-	}
+		System.out.println("commitpulltest");
 
 	public static void main(String[] args) {
 		System.out.println("클론후 작업01")
