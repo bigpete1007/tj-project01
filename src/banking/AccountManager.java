@@ -97,7 +97,7 @@ public class AccountManager {
 			}
 			// stream.close();
 		} catch (EOFException e) {
-			System.out.println("파일 로드 완료했습니다.");
+			System.out.println();
 //			e.printStackTrace();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

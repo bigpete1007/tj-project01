@@ -1,10 +1,10 @@
 package banking;
 
-import java.util.Scanner;
+import java.util.Scanner;//입력함수 수입
 
-public class BankingSystemMain implements ICustomDefine {
+public class BankingSystemMain implements ICustomDefine {//뱅킹시스템메인은 아이커스텀디파인의 일종이다
 
-	static void ShowMenu() {
+	static void ShowMenu() {//메뉴를 보여주는함수를 정의
 
 		Scanner scan = new Scanner(System.in);
 		
