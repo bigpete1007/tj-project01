@@ -9,20 +9,17 @@ public class BankingSystemMain implements ICustomDefine {//뱅킹시스템메인
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("****************************");
-		System.out.println("-----Menu-----");
-		System.out.println("1.계좌개설 ");
-		System.out.println("2.입 금");
-		System.out.println("3.출 금");
-		System.out.println("4.계좌정보출력 ");
-		System.out.println("5.저장옵션 ");
-		System.out.println("6.프로그램종료");
-		System.out.println("****************************");
+		System.out.println("-------------Menu-------------");
+		System.out.println("1.계좌개설 2.입금 3. 출금 4. 계좌정보출력");
+		System.out.println("5.저장옵션 6.프로그램종료");
+		
+		System.out.println("*****************************");
 		System.out.print("메뉴선택>>>");
 	}
 
 	public static void main(String[] args) {
 		
-		
+		System.out.println("1차프로젝트 학원");
 		AccountManager manager = new AccountManager();
 		//Account accounts = new Account();abstract이라 하위값인 high으로 받아야한다
 		manager.LoadFile();
